@@ -1,0 +1,72 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+}
+.sidebar{
+    padding-top: 13px;
+    
+}
+
+.aboutlogo{
+    display: flex;
+}
+
+.form {
+    display: flex;
+    padding-top: 13px;
+    
+}
+
+.corner{
+    display: flex;
+    padding-left: 13px;
+    
+}
+.logo> a> img{
+    height: 50px;
+    width : 50px;
+    padding-left: 1px;
+}
+.sidebar> a> img{
+    height: 20px;
+    width : 20px
+    
+}
+.audio> a> img{
+    height: 20px;
+    width : 20px
+}
+.create> a> img{
+    height: 20px;
+    width : 20px
+}
+.notify> a> img{
+    height: 20px;
+    width : 20px
+}
+.user>a {
+    text-decoration: none;
+    
+}
+.create{
+    padding-top: 13px;
+}
+.notify{
+    padding-top: 13px;
+}
+
+.middle{
+    display: flex ;
+    justify-content: space-between;
+}
+
+.img1>a>img ,.img2>a>img , .img3>a>img, .img4 >a>img{
+    height: 150px;
+    width: 150px;
+}
+
+.thump1, .thump2, .thump3, .thump4{
+    display: flex;
+
+}
