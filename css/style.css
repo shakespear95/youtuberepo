@@ -1,10 +1,18 @@
 header{
-    display: flex;
+    display : flex;
     justify-content: space-between;
-    background-color: antiquewhite;
+    align-items: center;
+    padding: 30px 10px;
+    border: 50px;
+    height: 50px;
+    background-color: #edf0f1;
+}
+body{
+    width: 100%;
 }
 .sidebar{
     padding-top: 13px;
+   
     
 }
 
@@ -17,10 +25,14 @@ header{
     padding-top: 13px;
     
 }
+.logo{
+    margin-left: 1em;
+}
 
 .corner{
     display: flex;
     padding-left: 13px;
+    gap: 1em;
     
 }
 .logo> a> img{
@@ -58,9 +70,12 @@ header{
 
 .middle{
     display: flex ;
-    justify-content: space-between;
+    gap: 2em;
+    
 }
-
+.thumpnails{
+    border: solid;
+}
 .img1>a>img ,.img2>a>img , .img3>a>img, .img4 >a>img{
     height: 150px;
     width: 150px;
@@ -70,3 +85,26 @@ header{
     display: flex;
 
 }
+.youtube>iframe{
+    padding-top: 10px;
+    padding: 10px 10px;
+   
+    
+}
+.likeshare,.likes{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.like, .dislike, .share, .download, .clip , .save{
+    display: flex;
+    gap: 2em;
+}
+.likeshare>img{
+    width: 10px;
+    height: 10px;
+
+}
+
+
