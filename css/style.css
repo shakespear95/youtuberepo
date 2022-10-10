@@ -3,8 +3,8 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px 10px;
-    border: 50px;
-    height: 50px;
+    border: 30px;
+    height: 15px;
     background-color: #edf0f1;
 }
 body{
@@ -106,5 +106,26 @@ body{
     height: 10px;
 
 }
+.likes>p{
+    padding: 0px;
+    margin: 0ch;
+}
 
-
+.textlike{
+    margin: 0px 8px 0px -29px;
+}
+.disliketext>p{
+    margin: 13px -2px 0px -30px;
+}
+.sharetext{
+    margin: -4px -1px 0px -31px;
+}
+.down{
+    margin: -3px -2px 0px -33px;;
+}
+.cliptext{
+    margin: -5px 3px 0px -28px;
+}
+.savetext{
+    margin: 11px 12px 3px -27px;
+}
